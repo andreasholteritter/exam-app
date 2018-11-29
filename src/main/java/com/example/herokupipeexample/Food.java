@@ -13,10 +13,10 @@ public class Food {
     private Long id;
     private String name;
 
-    public Customer() {
+    public Food() {
     }
 
-    public Customer(String name) {
+    public Food(String name) {
         this.name = name;
     }
 

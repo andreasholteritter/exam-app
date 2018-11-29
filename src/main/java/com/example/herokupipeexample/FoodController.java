@@ -32,5 +32,4 @@ public class FoodController {
         System.out.println(food);
     		return foodRepository.save(food);
     	}
-
 }

@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class FoodApplication {
 
 	public static void main(String[] args) {
-		Logger logger = LoggerFactory.getLogger(LogzioLogbackExample.class);
+		Logger logger = LoggerFactory.getLogger(FoodApplication.class);
 		
 		logger.info("Starting SpringApplication");
 		SpringApplication.run(FoodApplication.class, args);
